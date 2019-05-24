@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "cupress test",
   "main": "index.js",
-  "dependencies": {
-    "cypress": "^3.2.0"
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^3.3.1",
+    "yarn": "^1.16.0"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
