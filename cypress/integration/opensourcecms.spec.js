@@ -28,7 +28,7 @@ describe('login and add new post', () => {
         cy.get('#comment').type('My first comment')
         cy.get('#submit').click()
         //then
-        cy.url().should('contains', '/test-post-').should('contains', '/#comment-')
+        cy.url().should('contains', '/test-post').should('contains', '/#comment-')
         cy.contains('My first comment')
 
 
