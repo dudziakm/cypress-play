@@ -6,7 +6,7 @@ before(()=>{
 
 describe('login and add new post', () => {
     it('should login', ()=>{
-        // given
+/*         // given
         visitLoginPage()
         loginAsAdmin()
 
@@ -29,11 +29,8 @@ describe('login and add new post', () => {
         cy.get('#submit').click()
         //then
         cy.url().should('contains', '/test-post').should('contains', '/#comment-')
-        cy.contains('My first comment')
+        cy.contains('My first comment') */
 
-
-    })
-    it('should add new post', ()=>{
 
     })
 })
