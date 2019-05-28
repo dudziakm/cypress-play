@@ -4,12 +4,7 @@ describe('test css tricks page', ()=>{
     beforeEach(()=>{
         cy.visit('https://css-tricks.com/');
     })
-    
-/*     it('should be true', ()=>
-    {
-        expect(1).to.equal(1)
-    })
- */
+
     it('contains "CSS-Tricks" in the title', ()=>{
         cy.title().should('contain', 'CSS-Tricks')
     })
@@ -25,7 +20,7 @@ describe('test css tricks page', ()=>{
 
         it('has a visible mobile menu toggle', function() {
             cy.get('.icon-burger').should('be.visible');
-          })
+        })
     })
 
     describe('with a 1085 viewport', function() {
@@ -36,6 +31,6 @@ describe('test css tricks page', ()=>{
         it('has a visible mobile menu toggle', function() {
             cy.get('.icon-burger').should('be.visible');
         });
-      })
+    })
 
 })
