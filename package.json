@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "cupress test",
   "main": "index.js",
-  "dependencies": {},
   "devDependencies": {
-    "cypress": "^3.3.1",
+    "cypress": "^10.0.2",
     "yarn": "^1.16.0"
   },
   "scripts": {
