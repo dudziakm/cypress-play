@@ -4,7 +4,7 @@
   "description": "cupress test",
   "main": "index.js",
   "devDependencies": {
-    "cypress": "^10.0.2",
+    "cypress": "^14.5.2",
     "yarn": "^1.16.0"
   },
   "scripts": {
