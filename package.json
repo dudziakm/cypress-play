@@ -4,8 +4,8 @@
   "description": "cupress test",
   "main": "index.js",
   "devDependencies": {
-    "cypress": "^10.0.2",
-    "yarn": "^1.16.0"
+    "cypress": "13.16.0",
+    "yarn": "1.22.22"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
